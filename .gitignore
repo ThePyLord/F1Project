@@ -1,0 +1,18 @@
+# Secrets
+.env
+
+# PyCharm stuff:
+.idea/
+
+# Flask stuff:
+templates/
+static/
+instance/
+
+# SQLite stuff:
+database.db
+
+# React stuff
+frontend/README.md
+frontend/yarn.lock
+frontend/node_modules

@@ -1,4 +1,11 @@
-import os, sqlite3
+# How to use this file
+# --------------------
+# Run the create_sql function to create the sql files for each table
+# Comment the create_sql function and run the write_to_db function to create the database
+
+import os
+import sqlite3
+
 import pandas as pd
 
 # create respective sql files for each table
@@ -36,5 +43,6 @@ def write_to_db():
     conn.commit()
     conn.close()
     print('Database created!')
+
 
 write_to_db()

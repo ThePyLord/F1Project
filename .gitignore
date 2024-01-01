@@ -5,6 +5,7 @@
 .idea/
 
 # Flask stuff:
+__pycache__/
 templates/
 static/
 instance/
@@ -15,4 +16,5 @@ database.db
 # React stuff
 frontend/README.md
 frontend/yarn.lock
-frontend/node_modules
+frontend/node_modules/
+frontend/src/utils/aapl.csv
